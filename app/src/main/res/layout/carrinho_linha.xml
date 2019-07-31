@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <TextView
+        android:id="@+id/carrinhoNomeXml"
+        android:layout_width="110sp"
+        android:layout_height="35sp"
+        android:textSize="20sp"
+        android:text="Produto" />
+
+    <TextView
+        android:id="@+id/carrinhoPrecoXml"
+        android:layout_width="45sp"
+        android:layout_height="30sp"
+        android:text="Preço"
+        android:textSize="20dp"
+        android:layout_marginLeft="5sp" />
+
+    <TextView
+        android:id="@+id/carrinhoQuantidadeXml"
+        android:layout_width="15sp"
+        android:layout_height="30sp"
+        android:text="Qt."
+        android:textSize="20dp"
+        android:layout_marginLeft="5sp" />
+
+    <Button
+        android:id="@+id/carrinhoDeletarXml"
+        android:layout_width="75sp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5sp"
+        android:text="Delete" />
+
+    <Button
+        android:id="@+id/carrinhoEditXml"
+        android:layout_width="75sp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5sp"
+        android:text="Edit" />
+
+</LinearLayout>

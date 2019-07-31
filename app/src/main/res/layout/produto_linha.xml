@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <TextView
+        android:id="@+id/produtoNomeXml"
+        android:layout_width="120sp"
+        android:layout_height="35sp"
+        android:textSize="20sp"
+        android:text="Produto"
+        android:padding="5dp"/>
+
+    <TextView
+        android:id="@+id/produtoPrecoXml"
+        android:layout_width="60sp"
+        android:layout_height="35sp"
+        android:padding="5dp"
+        android:text="Preço"
+        android:textSize="20dp"
+        android:layout_marginLeft="10sp" />
+
+    <TextView
+        android:id="@+id/produtoQuantidadeXml"
+        android:layout_width="50sp"
+        android:layout_height="35sp"
+        android:padding="5dp"
+        android:text="Qt."
+        android:textSize="20dp"
+        android:layout_marginLeft="10sp" />
+
+    <Button
+        android:id="@+id/produtoBtnAddXml"
+        android:onClick="produtoBtnAddXml"
+        android:layout_width="70sp"
+        android:layout_height="wrap_content"
+        android:text="Add" />
+
+</LinearLayout>
